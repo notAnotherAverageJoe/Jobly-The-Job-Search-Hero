@@ -1,0 +1,39 @@
+/* CompanyCard.css */
+
+section {
+    margin: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555; /* Darker grey for description */
+}
+
+.card img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Slightly rounded corners */
+}
+
+.list-group-item {
+    cursor: pointer; /* Change cursor to pointer for clickable links */
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa; /* Light grey on hover */
+}

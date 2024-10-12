@@ -1,0 +1,60 @@
+/* Home.css */
+
+/* Style for the main container */
+.home-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    min-height: 100vh; /* Full height of the viewport */
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px; /* Add padding */
+}
+
+/* Style for the main heading */
+.home-container h1 {
+    font-size: 3rem; /* Increase font size */
+    color: #007bff; /* Bootstrap primary color */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Style for the subheading */
+.home-container h3 {
+    font-size: 1.5rem; /* Subheading size */
+    color: #343a40; /* Dark gray color */
+    margin-bottom: 20px; /* Space below the subheading */
+}
+
+/* Style for the welcome message */
+.home-container .welcome-message {
+    font-size: 1.2rem; /* Font size for welcome message */
+    color: #28a745; /* Green color for welcome text */
+    margin-bottom: 20px; /* Space below the welcome message */
+}
+
+/* Style for buttons */
+.home-container .btn {
+    margin: 5px; /* Space between buttons */
+    padding: 10px 20px; /* Button padding */
+    font-size: 1rem; /* Button font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Style for buttons on hover */
+.home-container .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: white; /* White text on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .home-container {
+        padding: 10px; /* Adjust padding for small screens */
+    }
+    .home-container h1 {
+        font-size: 2.5rem; /* Smaller heading size on small screens */
+    }
+    .home-container h3 {
+        font-size: 1.2rem; /* Smaller subheading size */
+    }
+}

@@ -1,0 +1,29 @@
+/* CompanyDetails.css */
+
+.company-details {
+    max-width: 800px; /* Set a maximum width for better readability */
+    margin: 20px auto; /* Center the container */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* White background for better contrast */
+}
+
+.company-details h4 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.company-details p {
+    font-size: 1.2rem;
+    line-height: 1.5; /* Improved line spacing */
+    color: #555; /* Darker grey for description */
+}
+
+.loading {
+    text-align: center; /* Center loading text */
+    font-size: 1.5rem;
+    color: #007bff; /* Bootstrap primary color */
+}

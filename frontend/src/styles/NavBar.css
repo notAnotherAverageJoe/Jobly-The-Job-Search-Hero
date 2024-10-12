@@ -1,0 +1,40 @@
+/* Nav.css */
+
+.MyNavBarClass {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items vertically */
+    background-color: #007bff; /* Bootstrap primary color */
+    padding: 10px 20px; /* Add padding */
+    color: white; /* White text color */
+    font-size: 1.2rem; /* Increase font size */
+    position: sticky; /* Make navbar sticky */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure it stays above other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.MyNavBarClass p {
+    margin: 0 15px; /* Add horizontal margin between links */
+}
+
+.MyNavBarClass a {
+    color: white; /* White color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.MyNavBarClass a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .MyNavBarClass {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: flex-start; /* Align items to the left */
+    }
+    .MyNavBarClass p {
+        margin: 10px 0; /* Adjust margin for vertical spacing */
+    }
+}
